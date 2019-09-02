@@ -1,0 +1,41 @@
+D:\Concurso Nacional\Logica\bin\Debug\Logica.dll
+D:\Concurso Nacional\Logica\bin\Debug\Logica.pdb
+D:\Concurso Nacional\Logica\bin\Debug\Datos.dll
+D:\Concurso Nacional\Logica\bin\Debug\Datos.pdb
+D:\Concurso Nacional\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+D:\Concurso Nacional\Logica\obj\Debug\Logica.dll
+D:\Concurso Nacional\Logica\obj\Debug\Logica.pdb
+E:\Concurso Nacional\Logica\bin\Debug\Logica.dll
+E:\Concurso Nacional\Logica\bin\Debug\Logica.pdb
+E:\Concurso Nacional\Logica\bin\Debug\Datos.dll
+E:\Concurso Nacional\Logica\bin\Debug\Datos.pdb
+E:\Concurso Nacional\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+E:\Concurso Nacional\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+E:\Concurso Nacional\Logica\obj\Debug\Logica.csproj.CopyComplete
+E:\Concurso Nacional\Logica\obj\Debug\Logica.dll
+E:\Concurso Nacional\Logica\obj\Debug\Logica.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\bin\Debug\Logica.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\bin\Debug\Logica.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\bin\Debug\Datos.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\bin\Debug\Datos.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\obj\Debug\Logica.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Logica\obj\Debug\Logica.pdb
+E:\Proyecto\Concurso Nacional\Logica\bin\Debug\Logica.dll
+E:\Proyecto\Concurso Nacional\Logica\bin\Debug\Logica.pdb
+E:\Proyecto\Concurso Nacional\Logica\bin\Debug\Datos.dll
+E:\Proyecto\Concurso Nacional\Logica\bin\Debug\Datos.pdb
+E:\Proyecto\Concurso Nacional\Logica\obj\Debug\Logica.csprojAssemblyReference.cache
+E:\Proyecto\Concurso Nacional\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+E:\Proyecto\Concurso Nacional\Logica\obj\Debug\Logica.csproj.CopyComplete
+E:\Proyecto\Concurso Nacional\Logica\obj\Debug\Logica.dll
+E:\Proyecto\Concurso Nacional\Logica\obj\Debug\Logica.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\bin\Debug\Logica.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\bin\Debug\Logica.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\bin\Debug\Datos.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\bin\Debug\Datos.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\obj\Debug\Logica.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\Logica\obj\Debug\Logica.pdb

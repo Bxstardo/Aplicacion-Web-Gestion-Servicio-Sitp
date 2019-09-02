@@ -1,0 +1,28 @@
+D:\Concurso Nacional\Datos\bin\Debug\Datos.dll
+D:\Concurso Nacional\Datos\bin\Debug\Datos.pdb
+D:\Concurso Nacional\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+D:\Concurso Nacional\Datos\obj\Debug\Datos.dll
+D:\Concurso Nacional\Datos\obj\Debug\Datos.pdb
+E:\Concurso Nacional\Datos\bin\Debug\Datos.dll
+E:\Concurso Nacional\Datos\bin\Debug\Datos.pdb
+E:\Concurso Nacional\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+E:\Concurso Nacional\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+E:\Concurso Nacional\Datos\obj\Debug\Datos.dll
+E:\Concurso Nacional\Datos\obj\Debug\Datos.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Datos\bin\Debug\Datos.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Datos\bin\Debug\Datos.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Datos\obj\Debug\Datos.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\Datos\obj\Debug\Datos.pdb
+E:\Proyecto\Concurso Nacional\Datos\bin\Debug\Datos.dll
+E:\Proyecto\Concurso Nacional\Datos\bin\Debug\Datos.pdb
+E:\Proyecto\Concurso Nacional\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+E:\Proyecto\Concurso Nacional\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+E:\Proyecto\Concurso Nacional\Datos\obj\Debug\Datos.dll
+E:\Proyecto\Concurso Nacional\Datos\obj\Debug\Datos.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\Datos\bin\Debug\Datos.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\Datos\bin\Debug\Datos.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\Concurso Nacional\Datos\obj\Debug\Datos.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\Datos\obj\Debug\Datos.pdb

@@ -1,0 +1,224 @@
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\ApplicationInsights.config
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\csc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\vbc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+c:\users\usuario\documents\visual studio 2015\Projects\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb
+D:\Concurso Nacional\ProyectoConcurso\bin\ApplicationInsights.config
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\csc.exe
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\vbc.exe
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+D:\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+D:\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+D:\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.pdb
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+D:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojResolveAssemblyReference.cache
+D:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+D:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb
+D:\Concurso Nacional\ProyectoConcurso\bin\Logica.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Datos.dll
+D:\Concurso Nacional\ProyectoConcurso\bin\Logica.pdb
+D:\Concurso Nacional\ProyectoConcurso\bin\Datos.pdb
+E:\Concurso Nacional\ProyectoConcurso\bin\ApplicationInsights.config
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\csc.exe
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\vbc.exe
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+E:\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+E:\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+E:\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.pdb
+E:\Concurso Nacional\ProyectoConcurso\bin\Logica.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Datos.dll
+E:\Concurso Nacional\ProyectoConcurso\bin\Logica.pdb
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+E:\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Concurso Nacional\ProyectoConcurso\bin\Datos.pdb
+E:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojAssemblyReference.cache
+E:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CoreCompileInputs.cache
+E:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CopyComplete
+E:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+E:\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\ApplicationInsights.config
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\csc.exe
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\vbc.exe
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Logica.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Datos.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Logica.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\bin\Datos.pdb
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojAssemblyReference.cache
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CoreCompileInputs.cache
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CopyComplete
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+C:\Users\Arnaldo\Desktop\Nueva carpeta (3)\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\ApplicationInsights.config
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\csc.exe
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\vbc.exe
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.pdb
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Datos.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Logica.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Datos.pdb
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Logica.pdb
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojAssemblyReference.cache
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CoreCompileInputs.cache
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CopyComplete
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+E:\Proyecto\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\ApplicationInsights.config
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\csc.exe
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\vbc.exe
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\ProyectoConcurso.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Datos.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Logica.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Datos.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Logica.pdb
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
