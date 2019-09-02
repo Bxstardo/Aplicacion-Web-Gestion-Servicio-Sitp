@@ -38,7 +38,7 @@
             <figure class="full-width NavLateral-logo blue-grey darken-4"   >
          
                              <img src="Imagenes/sitplogo.png" class="responsive-img center-box" style="border: thick solid #0D47A1; background-color: #263238;">&nbsp;
-                <figcaption class="center-align ">Sistema de Informacion para la Gestion de Denuncias Opiniones, Quejas y Sugerencias</figcaption>
+                <figcaption class="center-align ">Sistema de Informacion para la Gestión de Denuncias Opiniones, Quejas y Sugerencias</figcaption>
             </figure> 
             <div class="NavLateral-Nav">
                 <ul class="full-width">

@@ -52,27 +52,27 @@
 				</div>
 				<div class="input-field col l6 col m6">
                     Contraseña:
-				<asp:TextBox ID="TextBox7" runat="server"  placeholder="Contraseña" type="password"></asp:TextBox>
+				<asp:TextBox ID="TextBox7" runat="server"  placeholder="Contraseña" type="password" CssClass="validate"></asp:TextBox>
 				</div>
                 	<div class="clearfix"></div>
 				<div class="input-field col l6 col m6">
               Nombres:
-			 <asp:TextBox ID="TextBox1"  runat="server" placeholder="Nombres"></asp:TextBox>
+			 <asp:TextBox ID="TextBox1"  runat="server" placeholder="Nombres" CssClass="validate"></asp:TextBox>
 						
 				</div>
 				<div class="input-field col l6 col m6">
                     Apellidos:
-				<asp:TextBox ID="TextBox2" runat="server"  placeholder="Apellidos"></asp:TextBox>
+				<asp:TextBox ID="TextBox2" runat="server"  placeholder="Apellidos" CssClass="validate"></asp:TextBox>
 				</div>
 
 				<div class="clearfix"></div>
 				<div class="input-field col l6 col m6">
 				Direccion:
-					<asp:TextBox ID="TextBox3" runat="server" placeholder="Cll 25..."></asp:TextBox>
+					<asp:TextBox ID="TextBox3" runat="server" placeholder="Cll 25..." CssClass="validate"></asp:TextBox>
 				</div>
 				<div class="input-field col l6 m6">
 				Telefono:
-				<asp:TextBox ID="TextBox4" runat="server" placeholder ="000-000-0000"></asp:TextBox>
+				<asp:TextBox ID="TextBox4" runat="server" placeholder ="000-000-0000" CssClass="validate" type="number"></asp:TextBox>
 				</div>
 				
 				<div class="clearfix"></div>
@@ -99,17 +99,17 @@
                 	<div class="clearfix"></div>
                 <div class="input-field col l6 col m6">
 				    Barrio:
-                    <asp:TextBox ID="TextBox5" runat="server" placeholder="Barrio"></asp:TextBox>
+                    <asp:TextBox ID="TextBox5" runat="server" placeholder="Barrio" CssClass="validate"></asp:TextBox>
 				</div>
 				
 
                 				<div class="clearfix"></div>
 				<div class="input-field col l6 m6">
-					Correo:<asp:TextBox ID="TextBox8" runat="server" placeholder="Ejemplo@gmail.com" ></asp:TextBox>
+					Correo:<asp:TextBox ID="TextBox8" runat="server" placeholder="Ejemplo@gmail.com" CssClass="validate" type="email" ></asp:TextBox>
 				&nbsp;</div>
                 <div class="clearfix"></div>
                 <div class="input-field col l6 m6">
-					Identificacion:<asp:TextBox ID="TextBox9" type="number" runat="server" placeholder="111111111111" ></asp:TextBox>
+					Identificacion:<asp:TextBox ID="TextBox9" type="number" runat="server" placeholder="111111111111" CssClass="validate"></asp:TextBox>
 				&nbsp;</div>
 		
 				<div class="clearfix"></div>

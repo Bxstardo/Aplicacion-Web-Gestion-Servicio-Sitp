@@ -27,6 +27,8 @@
 </head>
 
 <body background="Imagenes/fondo2.jpg" style="background-repeat: no-repeat; background-position: center center;">
+    <p>
+&nbsp;</p>
     <style type="text/css">
         .confiltro
         {

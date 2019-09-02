@@ -135,6 +135,11 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Sesion.aspx" />
+    <Content Include="SinLogin\ConsultarDenuncia.aspx" />
+    <Content Include="SinLogin\CrearDenuncia.aspx" />
+    <Content Include="SinLogin\CrearOpinion.aspx" />
+    <Content Include="SinLogin\CrearQueja.aspx" />
+    <Content Include="SinLogin\CrearSugerencia.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +180,41 @@
     <Compile Include="Sesion.aspx.designer.cs">
       <DependentUpon>Sesion.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SinLogin\ConsultarDenuncia.aspx.cs">
+      <DependentUpon>ConsultarDenuncia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinLogin\ConsultarDenuncia.aspx.designer.cs">
+      <DependentUpon>ConsultarDenuncia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SinLogin\CrearDenuncia.aspx.cs">
+      <DependentUpon>CrearDenuncia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinLogin\CrearDenuncia.aspx.designer.cs">
+      <DependentUpon>CrearDenuncia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SinLogin\CrearOpinion.aspx.cs">
+      <DependentUpon>CrearOpinion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinLogin\CrearOpinion.aspx.designer.cs">
+      <DependentUpon>CrearOpinion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SinLogin\CrearQueja.aspx.cs">
+      <DependentUpon>CrearQueja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinLogin\CrearQueja.aspx.designer.cs">
+      <DependentUpon>CrearQueja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SinLogin\CrearSugerencia.aspx.cs">
+      <DependentUpon>CrearSugerencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SinLogin\CrearSugerencia.aspx.designer.cs">
+      <DependentUpon>CrearSugerencia.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj">
@@ -192,7 +232,6 @@
     <Folder Include="css\" />
     <Folder Include="fonts\" />
     <Folder Include="js\" />
-    <Folder Include="SinLogin\" />
     <Folder Include="Usuario\" />
   </ItemGroup>
   <PropertyGroup>
