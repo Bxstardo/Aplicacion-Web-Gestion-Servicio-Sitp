@@ -33,25 +33,25 @@
             -webkit-filter: blur(3px)
         }
     </style>
-        <form id="form1" runat="server">
+        <form id="form1" runat="server" class="center-align">
     <div class="container-login center-align">
         <div style="margin:15px 0;" class="col s12">
             
            <asp:Image ID="Image1" runat="server" ImageUrl="~/Imagenes/sitp.png" Width="100px" CssClass="responsive-img" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:Image ID="Image2" runat="server" ImageUrl="~/Imagenes/transmi.png" Width="100px"  CssClass="responsive-img" />
             <p class="center-align">Inicia sesión con tu cuenta</p>   
         </div>
-        <form action="" class="center-align" >
+      
             <div class="input-field col s12">
             &nbsp;<strong>Usuario </strong>&nbsp;<asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
             </div>
             <div class="input-field col s12">
              &nbsp;<strong>Contraseña</strong>&nbsp;
 
-          <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+          <asp:TextBox ID="TextBox2" runat="server" type="password"></asp:TextBox>
               
             </div>
 <asp:Button ID="Button1" runat="server" Text="Ingresar" CssClass="waves-effect waves-teal btn-flat" OnClick="Button1_Click"/> 
-        </form>
+     
         <div class="divider" style="margin: 20px 0;"></div>
       <%--  <a href="home.html">¿Se te olvido la contraseña?</a>--%>
     </div>

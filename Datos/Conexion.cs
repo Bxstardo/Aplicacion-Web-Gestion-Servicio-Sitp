@@ -18,7 +18,7 @@ namespace Datos
             //Ejecutar antes la Base de Datos en SQL SERVER
 
             // String cadenaconexion = @"Data Source=; Initial Catalog =Gestion_SITP; Integrated Security=True";
-            String cadenaconexion = @"Data Source=(localdb)\MSSQLLocalDB; Initial Catalog =Gestion_SITP; Integrated Security=True"; ;
+            String cadenaconexion = @"Data Source=DESKTOP-GFI9B2I;Initial Catalog=Gestion_SITP;Integrated Security=True"; ;
             conn = new SqlConnection(cadenaconexion);
         }
         public DataSet ConsultarSQL(String SentenciaSQL)

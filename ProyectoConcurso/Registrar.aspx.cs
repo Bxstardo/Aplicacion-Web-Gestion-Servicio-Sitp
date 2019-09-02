@@ -71,6 +71,8 @@ namespace ProyectoConcurso
                             TextBox6.Text = "";
                             TextBox7.Text = "";
                             TextBox8.Text = "";
+                            TextBox9.Text = "";
+                            Response.Redirect("Sesion.aspx");
                         }
                         else
                         {

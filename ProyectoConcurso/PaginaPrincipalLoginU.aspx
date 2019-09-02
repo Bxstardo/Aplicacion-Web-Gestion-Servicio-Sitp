@@ -96,7 +96,7 @@
             <ul class="full-width">
                 <li class="btn-MobileMenu ShowHideMenu"><a href="#" class="tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Menu"><i class="zmdi zmdi-more-vert"></i></a></li>
                 <li >
-                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="assets/img/user.png" Height="50px" Width="50px" /></li></figure>
+                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click" /></li></figure>
                 </li>
                 <li style="padding:0 5px;">
                     <asp:Label ID="Label1" runat="server" Text="User Name" CssClass="white-text"></asp:Label></li>
@@ -109,7 +109,7 @@
                 </li>
                <%-- <li><a href="#" class="tooltipped waves-effect waves-light btn-Search" data-position="bottom" data-delay="50" data-tooltip="Search"><i class="zmdi zmdi-search"></i></a></li>--%>
           
-                       <a href="PaginaPrinciaplLoginU.aspx" class="waves-effect waves-light blue-grey darken-4 btn">Inicio</a>
+                       <a href="PaginaPrincipalLoginU.aspx" class="waves-effect waves-light blue-grey darken-4 btn">Inicio</a>
               
                 
                               
