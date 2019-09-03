@@ -46,7 +46,7 @@
 <li >
                         <a href="#" class="NavLateral-DropDown  waves-effect blue darken-4"   ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Quejas</a>
                         <ul class="full-width" >
-                            <li><a href="button.html" class="waves-effect waves-light     " >Crear Queja</a></li>
+                            <li><a href="SinLogin/CrearQueja.aspx" class="waves-effect waves-light     " >Crear Queja</a></li>
 
                                 
                         </ul>
@@ -55,17 +55,17 @@
              <li> 
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4" ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect waves-light   ">Crear Denuncia</a></li>
+                            <li><a href="SinLogin/CrearDenuncia.aspx" class="waves-effect waves-light   ">Crear Denuncia</a></li>
          
                                           <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Denuncias</a></li>
+                            <li><a href="SinLogin/ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
                         </ul>
                     </li>
                     <li class="NavLateralDivider"></li>
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4"  ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect  waves-light">Crear Opinion</a></li>
+                            <li><a href="SinLogin/CrearOpinion.aspx" class="waves-effect  waves-light">Crear Opinion</a></li>
 
                                
                         </ul>
@@ -74,7 +74,7 @@
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"  ><i class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Sugerencias</a>
                         <ul class="full-width">
-                                  <li><a href="button.html" class="waves-effect waves-light">Crear Sugerencia</a></li>
+                                  <li><a href="SinLogin/CrearSugerencia.aspx" class="waves-effect waves-light">Crear Sugerencia</a></li>
                          
                  
                         </ul>

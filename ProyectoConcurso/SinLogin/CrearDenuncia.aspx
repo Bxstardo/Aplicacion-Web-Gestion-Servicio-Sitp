@@ -47,39 +47,36 @@
 <li >
                         <a href="#" class="NavLateral-DropDown  waves-effect blue darken-4"   ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Quejas</a>
                         <ul class="full-width" >
-                            <li><a href="button.html" class="waves-effect waves-light     " >Crear Queja</a></li>
+                            <li><a href="CrearQueja.aspx" class="waves-effect waves-light     " >Crear Queja</a></li>
 
-                                  <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Quejas</a></li>
+                                
                         </ul>
                     </li>
                     <li class="NavLateralDivider" ></li>
              <li> 
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4" ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect waves-light   ">Crear Denuncia</a></li>
+                            <li><a href="CrearDenuncia.aspx" class="waves-effect waves-light   ">Crear Denuncia</a></li>
          
                                           <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Denuncias</a></li>
+                            <li><a href="ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
                         </ul>
                     </li>
                     <li class="NavLateralDivider"></li>
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4"  ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect  waves-light">Crear Opinion</a></li>
+                            <li><a href="CrearOpinion.aspx" class="waves-effect  waves-light">Crear Opinion</a></li>
 
-                                <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Opiniones</a></li>
+                               
                         </ul>
                     </li>
                     <li class="NavLateralDivider"></li>
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"  ><i class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Sugerencias</a>
                         <ul class="full-width">
-                                  <li><a href="button.html" class="waves-effect waves-light">Crear Sugerencia</a></li>
-                                   <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Sugerencias</a></li>
+                                  <li><a href="CrearSugerencia.aspx" class="waves-effect waves-light">Crear Sugerencia</a></li>
+                 
                  
                         </ul>
                     </li>   
@@ -122,8 +119,13 @@
                 <div class="row">
                    
                     <div class="input-field col s6">
-                         Identificador del funcionario:
-                        <asp:TextBox ID="TextBox1" runat="server" placeholder="Z80-7122"></asp:TextBox>
+                
+                            Tu denuncia es contra un:
+                           <asp:DropDownList ID="DropDownList2" runat="server" class="browser-default" AutoPostBack="True" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
+            <asp:ListItem>Seleccione</asp:ListItem>
+                               <asp:ListItem>Funcionario</asp:ListItem>
+                               <asp:ListItem>Bus</asp:ListItem>
+                        </asp:DropDownList>
                     </div>
         
                     <div class="input-field col s6">
@@ -131,11 +133,17 @@
                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                     </div>
                     <div class="clearfix"></div>
-                     <div class="input-field col s12 center-align">
+                     <div class="input-field col s6">
                          Ruta de Servicio:
                         <asp:TextBox ID="TextBox3" runat="server" placeholder="13-2, 60, etc..."></asp:TextBox>
                     </div>
-                  
+                    <div class="input-field col s6">
+                                Identificador del
+                                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                                :
+                        <asp:TextBox ID="TextBox1" runat="server" placeholder="Z80-7122"></asp:TextBox>
+                    </div>
+                     <div class="clearfix"></div>
                     <div class="input-field col s6">
                          Fecha incidente:
                        <asp:Calendar ID="Calendar1" runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="#0D47A1" Height="250px" NextPrevFormat="ShortMonth" Width="330px">
