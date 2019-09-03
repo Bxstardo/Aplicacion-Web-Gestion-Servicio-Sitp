@@ -13,5 +13,25 @@ namespace ProyectoConcurso.SinLogin
         {
 
         }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (DropDownList2.SelectedIndex)
+            {
+                case 1:
+                    Label1.Text = "Funcionario";
+                    break;
+
+                case 2:
+                    Label1.Text = "Bus";
+                    break;
+
+            }
+        }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("../Sesion.aspx");
+        }
     }
 }

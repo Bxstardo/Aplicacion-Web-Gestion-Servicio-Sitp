@@ -95,6 +95,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administrador\ConsultarDenuncias.aspx" />
+    <Content Include="Administrador\ConsultarEstadisticasOpiniones.aspx" />
+    <Content Include="Administrador\ConsultarOpiniones.aspx" />
+    <Content Include="Administrador\ConsultarQuejas.aspx" />
+    <Content Include="Administrador\ConsultarSugerencias.aspx" />
     <Content Include="estilos\css\materialize.css" />
     <Content Include="estilos\css\materialize.min.css" />
     <Content Include="estilos\js\materialize.js" />
@@ -151,6 +156,41 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador\ConsultarDenuncias.aspx.cs">
+      <DependentUpon>ConsultarDenuncias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ConsultarDenuncias.aspx.designer.cs">
+      <DependentUpon>ConsultarDenuncias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\ConsultarEstadisticasOpiniones.aspx.cs">
+      <DependentUpon>ConsultarEstadisticasOpiniones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ConsultarEstadisticasOpiniones.aspx.designer.cs">
+      <DependentUpon>ConsultarEstadisticasOpiniones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\ConsultarOpiniones.aspx.cs">
+      <DependentUpon>ConsultarOpiniones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ConsultarOpiniones.aspx.designer.cs">
+      <DependentUpon>ConsultarOpiniones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\ConsultarQuejas.aspx.cs">
+      <DependentUpon>ConsultarQuejas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ConsultarQuejas.aspx.designer.cs">
+      <DependentUpon>ConsultarQuejas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\ConsultarSugerencias.aspx.cs">
+      <DependentUpon>ConsultarSugerencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ConsultarSugerencias.aspx.designer.cs">
+      <DependentUpon>ConsultarSugerencias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PaginaPrincipalLoginA.aspx.cs">
       <DependentUpon>PaginaPrincipalLoginA.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,7 +331,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Administrador\" />
     <Folder Include="assets\" />
     <Folder Include="css\" />
     <Folder Include="fonts\" />

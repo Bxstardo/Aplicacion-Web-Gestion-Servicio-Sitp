@@ -13,5 +13,10 @@ namespace ProyectoConcurso.SinLogin
         {
 
         }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("../Sesion.aspx");
+        }
     }
 }

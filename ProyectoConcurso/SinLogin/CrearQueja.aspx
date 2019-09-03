@@ -97,7 +97,7 @@
             <ul class="full-width">
                 <li class="btn-MobileMenu ShowHideMenu"><a href="#" class="tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Menu"><i class="zmdi zmdi-more-vert"></i></a></li>
                 <li >
-                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="../assets/img/user.png" Height="50px" Width="50px"/></li></figure>
+                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="../assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click"/></li></figure>
             
       
              
@@ -120,15 +120,40 @@
         <div class="container">
             <div class="row">
                 <h1 class="center-align">Queja</h1>
-                <div class="row">
-                    <h6 class="center-align">Inserte su queja aquí</h6>
-                </div>
-                <div class="row">
+                <div class>
+                                        <div class="input-field col s12">
+                
+                            Tu Queja es contra un:
+                           <asp:DropDownList ID="DropDownList2" runat="server" class="browser-default" AutoPostBack="True" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
+            <asp:ListItem>Seleccione</asp:ListItem>
+                               <asp:ListItem>Funcionario</asp:ListItem>
+                               <asp:ListItem>Bus</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
+        
                     <div class="input-field col s12">
+                         Lugar del incidente:
+                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                                    <div class="input-field col s12">
+                                Identificador del
+                                <asp:Label ID="Label1" runat="server"></asp:Label>
+                                (Opcional): 
+
+                        <asp:TextBox ID="TextBox3" runat="server" placeholder="Z80-7122"></asp:TextBox>
+                    </div>
+                
+                    <div class="input-field col s12">
+                        Descripcion de la queja:
                     <asp:TextBox ID="TextBox1" runat="server" CssClass="materialize-textarea" textmode="multiline"></asp:TextBox>
                         </div>
+                    <div class="clearfix"></div>
+               
+
                 
-                </div>
+                
                 <div class="row center-align">
                     <asp:Button ID="Button1" runat="server" Text="Enviar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
                 </div>
@@ -139,7 +164,7 @@
 
 
            <br />
-              <br />   <br />   <br />   <br />   <br />   <br />    <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br /> <br />      <br />   <br />   <br /> <br />
+               <br />    <br />   <br />   <br />   <br />   <br />   <br />   <br />     
           
        <!-- Footer -->
      <footer class="footer-MaterialDark">

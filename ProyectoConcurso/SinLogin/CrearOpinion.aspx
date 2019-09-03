@@ -96,7 +96,7 @@
             <ul class="full-width">
                 <li class="btn-MobileMenu ShowHideMenu"><a href="#" class="tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Menu"><i class="zmdi zmdi-more-vert"></i></a></li>
                 <li >
-                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="../assets/img/user.png" Height="50px" Width="50px"/></li></figure>
+                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="../assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click"/></li></figure>
             
       
              
@@ -117,6 +117,7 @@
             <div class="row">
                 <h1 class="center-align">Opinion</h1>
                 <div class="row center center-align">
+                    <asp:Panel ID="Panel1" runat="server">
                     <div class="col s12">
                         <asp:Label ID="Label1" runat="server" Text="Pregunta 1" style="font-size: x-large"></asp:Label>
                     </div>
@@ -129,9 +130,12 @@
                         </asp:RadioButtonList>
                  <%--         <asp:TextBox ID="TextBox1" runat="server" CssClass="materialize-textarea" textmode="multiline"></asp:TextBox>--%>
                     </div>
+                        </asp:Panel>
+                     <asp:Panel ID="Panel2" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label2" runat="server" Text="Pregunta 2" style="font-size: x-large"></asp:Label>
                     </div>
+                        
                     <div class="col s12">
                         <asp:RadioButtonList ID="RadioButtonList2" runat="server">
                             <asp:ListItem>Opcion 1</asp:ListItem>
@@ -140,6 +144,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                            </asp:Panel>
+                       <asp:Panel ID="Panel3" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label3" runat="server" Text="Pregunta 3" style="font-size: x-large"></asp:Label>
                     </div>
@@ -150,7 +156,9 @@
                             <asp:ListItem>Opcion 3</asp:ListItem>
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
-                    </div>
+                    </div>                           
+                            </asp:Panel>
+                        <asp:Panel ID="Panel4" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label4" runat="server" Text="Pregunta 4" style="font-size: x-large"></asp:Label>
                     </div>
@@ -162,6 +170,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                             </asp:Panel>
+                      <asp:Panel ID="Panel5" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label5" runat="server" Text="Pregunta 5" style="font-size: x-large"></asp:Label>
                     </div>
@@ -173,6 +183,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                               </asp:Panel>
+                         <asp:Panel ID="Panel6" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label6" runat="server" Text="Pregunta 6" style="font-size: x-large"></asp:Label>
                     </div>
@@ -184,6 +196,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                                        </asp:Panel>
+                        <asp:Panel ID="Panel7" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label7" runat="server" Text="Pregunta 7" style="font-size: x-large"></asp:Label>
                     </div>
@@ -195,6 +209,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                                    </asp:Panel>
+                         <asp:Panel ID="Panel8" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label8" runat="server" Text="Pregunta 8" style="font-size: x-large"></asp:Label>
                     </div>
@@ -206,6 +222,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                                 </asp:Panel>
+                     <asp:Panel ID="Panel9" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label9" runat="server" Text="Pregunta 9" style="font-size: x-large"></asp:Label>
                     </div>
@@ -217,6 +235,8 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
+                                </asp:Panel>
+                     <asp:Panel ID="Panel10" runat="server">
                      <div class="col s12">
                         <asp:Label ID="Label10" runat="server" Text="Pregunta 10" style="font-size: x-large"></asp:Label>
                     </div>
@@ -228,7 +248,7 @@
                             <asp:ListItem>Opcion 4</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
-
+                             </asp:Panel>
                 </div>
             </div>
         </div>

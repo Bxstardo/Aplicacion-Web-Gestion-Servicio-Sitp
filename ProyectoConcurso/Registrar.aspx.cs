@@ -20,7 +20,7 @@ namespace ProyectoConcurso
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Usuario ObjUsuario = new Usuario();
+            Usuarios ObjUsuario = new Usuarios();
             Credenciales ObjLogin = new Credenciales();
             DataSet DatosUsuarioCreados = new DataSet();
             //Solo Usuarios normales

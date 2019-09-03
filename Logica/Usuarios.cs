@@ -9,7 +9,7 @@ using System.Data;
 
 namespace Logica
 {
-    public class Usuario : Conexion
+    public class Usuarios : Conexion
     {
         private long _id_usuario;
         private string _nombres; //digitos 100

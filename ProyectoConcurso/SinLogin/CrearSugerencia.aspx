@@ -97,7 +97,7 @@
             <ul class="full-width">
                 <li class="btn-MobileMenu ShowHideMenu"><a href="#" class="tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Menu"><i class="zmdi zmdi-more-vert"></i></a></li>
                 <li >
-                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="../assets/img/user.png" Height="50px" Width="50px"/></li></figure>
+                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="../assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click"/></li></figure>
             
       
              
@@ -138,9 +138,7 @@
 
            <br />
               <br />   <br />   <br />   <br />   <br />   <br />    <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br /> <br />      <br />   <br />   <br /> <br />
-           <br />
-              <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />
-           <br />      <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br /><br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />   <br />
+
        <!-- Footer -->
      <footer class="footer-MaterialDark">
             <div class="container">
