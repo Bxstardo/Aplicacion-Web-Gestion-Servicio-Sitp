@@ -139,7 +139,7 @@
                     </div>
                     <div class="input-field col s6">
                                 Identificador del
-                                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                                <asp:Label ID="Label1" runat="server"></asp:Label>
                                 :
                         <asp:TextBox ID="TextBox1" runat="server" placeholder="Z80-7122"></asp:TextBox>
                     </div>

@@ -140,6 +140,14 @@
     <Content Include="SinLogin\CrearOpinion.aspx" />
     <Content Include="SinLogin\CrearQueja.aspx" />
     <Content Include="SinLogin\CrearSugerencia.aspx" />
+    <Content Include="UsuarioLog\ConsultarDenuncia.aspx" />
+    <Content Include="UsuarioLog\ConsultarOpinion.aspx" />
+    <Content Include="UsuarioLog\ConsultarQueja.aspx" />
+    <Content Include="UsuarioLog\ConsultarSugerencia.aspx" />
+    <Content Include="UsuarioLog\CrearDenuncia.aspx" />
+    <Content Include="UsuarioLog\CrearOpinion.aspx" />
+    <Content Include="UsuarioLog\CrearQueja.aspx" />
+    <Content Include="UsuarioLog\CrearSugerencia.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -215,6 +223,62 @@
     <Compile Include="SinLogin\CrearSugerencia.aspx.designer.cs">
       <DependentUpon>CrearSugerencia.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UsuarioLog\ConsultarDenuncia.aspx.cs">
+      <DependentUpon>ConsultarDenuncia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarDenuncia.aspx.designer.cs">
+      <DependentUpon>ConsultarDenuncia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarOpinion.aspx.cs">
+      <DependentUpon>ConsultarOpinion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarOpinion.aspx.designer.cs">
+      <DependentUpon>ConsultarOpinion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarQueja.aspx.cs">
+      <DependentUpon>ConsultarQueja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarQueja.aspx.designer.cs">
+      <DependentUpon>ConsultarQueja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarSugerencia.aspx.cs">
+      <DependentUpon>ConsultarSugerencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\ConsultarSugerencia.aspx.designer.cs">
+      <DependentUpon>ConsultarSugerencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearDenuncia.aspx.cs">
+      <DependentUpon>CrearDenuncia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearDenuncia.aspx.designer.cs">
+      <DependentUpon>CrearDenuncia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearOpinion.aspx.cs">
+      <DependentUpon>CrearOpinion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearOpinion.aspx.designer.cs">
+      <DependentUpon>CrearOpinion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearQueja.aspx.cs">
+      <DependentUpon>CrearQueja.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearQueja.aspx.designer.cs">
+      <DependentUpon>CrearQueja.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearSugerencia.aspx.cs">
+      <DependentUpon>CrearSugerencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioLog\CrearSugerencia.aspx.designer.cs">
+      <DependentUpon>CrearSugerencia.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Datos\Datos.csproj">
@@ -232,7 +296,6 @@
     <Folder Include="css\" />
     <Folder Include="fonts\" />
     <Folder Include="js\" />
-    <Folder Include="Usuario\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
