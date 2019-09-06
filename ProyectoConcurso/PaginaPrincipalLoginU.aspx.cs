@@ -23,5 +23,10 @@ namespace ProyectoConcurso
         {
             Response.Redirect("PaginaPrincipal.aspx");
         }
+
+        protected void ImageButton2_Click1(object sender, ImageClickEventArgs e)
+        {
+
+        }
     }
 }

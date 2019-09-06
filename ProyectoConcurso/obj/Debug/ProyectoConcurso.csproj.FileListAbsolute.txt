@@ -222,3 +222,42 @@ C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.W
 C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
 C:\Users\USUARIO\Documents\Concurso Nacional\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\ApplicationInsights.config
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\csc.exe
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\vbc.exe
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\ProyectoConcurso.dll.config
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\ProyectoConcurso.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\ProyectoConcurso.pdb
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Datos.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Logica.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.Web.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.ApplicationInsights.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Datos.pdb
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Logica.pdb
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.Web.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\obj\Debug\ProyectoConcurso.csprojAssemblyReference.cache
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\obj\Debug\ProyectoConcurso.csproj.CopyComplete
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\obj\Debug\ProyectoConcurso.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\ProyectoConcurso\obj\Debug\ProyectoConcurso.pdb

@@ -26,3 +26,9 @@ C:\Users\USUARIO\Documents\Concurso Nacional\Datos\bin\Debug\Datos.pdb
 C:\Users\USUARIO\Documents\Concurso Nacional\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
 C:\Users\USUARIO\Documents\Concurso Nacional\Datos\obj\Debug\Datos.dll
 C:\Users\USUARIO\Documents\Concurso Nacional\Datos\obj\Debug\Datos.pdb
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Datos\bin\Debug\Datos.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Datos\bin\Debug\Datos.pdb
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Datos\obj\Debug\Datos.dll
+C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Datos\obj\Debug\Datos.pdb

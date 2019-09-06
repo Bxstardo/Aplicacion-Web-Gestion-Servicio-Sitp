@@ -45,9 +45,9 @@
 <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Quejas</a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect waves-light">Crear Queja</a></li>
+                            <li><a href="UsuarioLog/CrearQueja.aspx" class="waves-effect waves-light">Crear Queja</a></li>
                             <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Quejas</a></li>
+                            <li><a href="UsuarioLog/ConsultarQueja.aspx" class="waves-effect waves-light">Consultar Quejas</a></li>
  
                            
                         </ul>
@@ -56,9 +56,9 @@
              <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect waves-light">Crear Denuncia</a></li>
+                            <li><a href="UsuarioLog/CrearDenuncia.aspx" class="waves-effect waves-light">Crear Denuncia</a></li>
                             <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Denuncias</a></li>
+                            <li><a href="UsuarioLog/ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
   
                         </ul>
                     </li>
@@ -66,9 +66,9 @@
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect waves-light">Crear Opinion</a></li>
+                            <li><a href="UsuarioLog/CrearOpinion.aspx" class="waves-effect waves-light">Crear Opinion</a></li>
                             <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Opiniones</a></li>
+                            <li><a href="UsuarioLog/ConsultarOpinion.aspx" class="waves-effect waves-light">Consultar Opiniones</a></li>
                              
                         </ul>
                     </li>
@@ -76,9 +76,9 @@
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Sugerencias</a>
                         <ul class="full-width">
-                                  <li><a href="button.html" class="waves-effect waves-light">Crear Sugerencia</a></li>
+                                  <li><a href="UsuarioLog/CrearSugerencia.aspx" class="waves-effect waves-light">Crear Sugerencia</a></li>
                             <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Sugerencias</a></li>
+                            <li><a href="UsuarioLog/ConsultarSugerencia.aspx" class="waves-effect waves-light">Consultar Sugerencias</a></li>
                  
                         </ul>
                     </li>   
@@ -96,7 +96,7 @@
             <ul class="full-width">
                 <li class="btn-MobileMenu ShowHideMenu"><a href="#" class="tooltipped waves-effect waves-light" data-position="bottom" data-delay="50" data-tooltip="Menu"><i class="zmdi zmdi-more-vert"></i></a></li>
                 <li >
-                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click" /></li></figure>
+                            <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click1"  /></li></figure>
                 </li>
                 <li style="padding:0 5px;">
                     <asp:Label ID="Label1" runat="server" Text="User Name" CssClass="white-text"></asp:Label></li>

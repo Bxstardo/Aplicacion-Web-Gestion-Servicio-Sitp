@@ -7,6 +7,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Pagina Principal</title>
+
+    	<link rel="stylesheet" href="../css/responsive mapa.css">
     
      <!-- Normalize CSS -->
 	<link rel="stylesheet" href="../css/normalize.css">
@@ -118,7 +120,7 @@
                 <h1 class="center-align">Denuncia</h1>
                 <div class="row">
                    
-                    <div class="input-field col s6">
+                    <div class="input-field col s12">
                 
                             Tu denuncia es contra un:
                            <asp:DropDownList ID="DropDownList2" runat="server" class="browser-default" AutoPostBack="True" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
@@ -128,9 +130,14 @@
                         </asp:DropDownList>
                     </div>
         
-                    <div class="input-field col s6">
+                    <div class="input-field col s12">
                          Lugar del incidente:
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                               <div class="map-responsive">
+          
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51641063165!2d-74.24789205374572!3d4.648283717688444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1567774956809!5m2!1ses!2sco"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                </div>
+               <%--         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>--%>
                     </div>
                     <div class="clearfix"></div>
                      <div class="input-field col s6">
@@ -162,6 +169,7 @@
            
                     </div>
                     
+                    </div>
                     <div class="col s12 center-align">
                         <br />
                                <asp:Button ID="Button1" runat="server" Text="Enviar" CssClass="waves-effect waves-light blue-grey darken-4 btn "/>

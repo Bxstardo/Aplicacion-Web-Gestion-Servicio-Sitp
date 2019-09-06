@@ -100,6 +100,7 @@
     <Content Include="Administrador\ConsultarOpiniones.aspx" />
     <Content Include="Administrador\ConsultarQuejas.aspx" />
     <Content Include="Administrador\ConsultarSugerencias.aspx" />
+    <Content Include="css\responsive mapa.css" />
     <Content Include="estilos\css\materialize.css" />
     <Content Include="estilos\css\materialize.min.css" />
     <Content Include="estilos\js\materialize.js" />
@@ -332,7 +333,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\" />
-    <Folder Include="css\" />
     <Folder Include="fonts\" />
     <Folder Include="js\" />
   </ItemGroup>

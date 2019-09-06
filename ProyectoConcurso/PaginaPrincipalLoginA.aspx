@@ -45,7 +45,7 @@
 <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Quejas</a>
                         <ul class="full-width">
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Quejas Usuarios</a></li>
+                            <li><a href="Administrador/ConsultarQuejas.aspx" class="waves-effect waves-light">Consultar Quejas Usuarios</a></li>
                        
                         </ul>
                     </li>
@@ -54,7 +54,7 @@
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
                         <ul class="full-width">
 
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Denuncias Usuarios</a></li>
+                            <li><a href="Administrador/ConsultarDenuncias.aspx" class="waves-effect waves-light">Consultar Denuncias Usuarios</a></li>
                  
                         </ul>
                     </li>
@@ -62,9 +62,9 @@
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">
-                            <li><a href="button.html" class="waves-effect waves-light">Consultar Opiniones Usuarios</a></li>
+                            <li><a href="Administrador/ConsultarOpiniones.aspx" class="waves-effect waves-light">Consultar Opiniones Usuarios</a></li>
                             <li class="NavLateralDivider"></li>
-                            <li><a href="form.html" class="waves-effect waves-light">Consultar Estadisticas Opiniones</a></li>
+                            <li><a href="Administrador/ConsultarEstadisticasOpiniones.aspx" class="waves-effect waves-light">Consultar Estadisticas Opiniones</a></li>
                              
                         </ul>
                     </li>
@@ -72,7 +72,7 @@
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Sugerencias</a>
                         <ul class="full-width">
-                                  <li><a href="button.html" class="waves-effect waves-light">Consultar Sugerencia Usuarios</a></li>
+                                  <li><a href="Administrador/ConsultarSugerencias.aspx" class="waves-effect waves-light">Consultar Sugerencia Usuarios</a></li>
 
                  
                         </ul>

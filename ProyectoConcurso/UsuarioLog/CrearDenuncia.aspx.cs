@@ -13,5 +13,26 @@ namespace ProyectoConcurso.Usuario
         {
 
         }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("../PaginaPrincipal.aspx");
+        }
+
+        protected void DropDownList2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch (DropDownList2.SelectedIndex)
+            {
+                case 1:
+                    Label1.Text = "Funcionario";
+                    break;
+
+                case 2:
+                    Label1.Text = "Bus";
+                    break;
+
+            }
+        }
+
     }
 }
