@@ -119,7 +119,7 @@
             <div class="row">
                 <h1 class="center-align">Sugerencia</h1>
                 <div class="row">
-                    <h6 class="center-align">Inserte su sugerencia aquí</h6>
+                    <h6 class="center-align col s12">Inserte su sugerencia aquí</h6>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">

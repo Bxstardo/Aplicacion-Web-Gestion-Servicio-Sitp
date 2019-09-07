@@ -117,7 +117,143 @@
         </div>
                <%--  Contenido  --%>
       
+        <div class="container">
+            <div class="row">
+                <h1 class="center-align">Opinion</h1>
+                <div class="row">
+                     <div class="row">
+                    <h6 class="center-align col s12">Ingrese el id de tu Opinion a Consultar</h6>
+                </div>
+                <div class="row center-align">
+                    <div class="input-field col s12">
+                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        </div>
+                
+                </div>
+                <div class="row center-align">
+                    <asp:Button ID="Button2" runat="server" Text="Consultar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                </div>
+                    <br /><br /><br /><br />
+                    <%-- Consulta --%>
+                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="850px">
+                   
+                    <div class="input-field col s12 m6 blue-grey blue darken-4 white-text" style="border-color: #003399">
+                
+                            Pregunta 1:
+                           <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+        
+                    <div class="input-field col s12 m6  blue-grey blue darken-4 white-text">
+                        Respuesta:
+                       <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                    </div>
+                    <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                     <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                         Pregunta 2:
+                        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                    </div>
+                    <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                
+                       <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                         Pregunta 3:
+                      <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+                    </div>
 
+                         <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                           <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                    Pregunta 4:
+                             
+              <asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                             <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                        Pregunta 5:
+                             
+              <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                             <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                        Pregunta 6:
+                             
+              <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                             <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                        Pregunta 7:
+                             
+              <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label15" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                             <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                    Pregunta 8:
+                             
+              <asp:Label ID="Label16" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label17" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                             <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                    Pregunta 9:
+                             
+              <asp:Label ID="Label18" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label19" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                             <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
+                    Pregunta 10:
+                             
+              <asp:Label ID="Label20" runat="server" Text="Label"></asp:Label>
+                    </div>
+                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text">
+                        Respuesta:
+                                <asp:Label ID="Label21" runat="server" Text="Label"></asp:Label>
+           
+                    </div>
+                    
+                        </asp:Panel>
+                </div>
+            </div>
+        </div>
+
+
+     
 
 
        <!-- Footer -->

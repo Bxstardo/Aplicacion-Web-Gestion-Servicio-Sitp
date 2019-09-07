@@ -116,10 +116,17 @@
             </ul>   
         </div>
                <%--  Contenido  --%>
+      <div class="container">
+          <div class ="row">
+              <h1 class="col s12 center-align">Estadisticas Opiniones</h1>
+  <img src="../Imagenes/Estadisticas5.png" class="responsive-img col s12 center-align"/>
+
+          </div>
+
+      </div>
       
-
-
-
+        
+        <br /><br /><br />
        <!-- Footer -->
      <footer class="footer-MaterialDark">
             <div class="container">

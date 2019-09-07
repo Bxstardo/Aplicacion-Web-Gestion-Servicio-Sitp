@@ -48,3 +48,10 @@ C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logi
 C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logica.dll
 C:\Users\SENA\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logica.pdb
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\bin\Debug\Logica.dll
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\bin\Debug\Logica.pdb
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\bin\Debug\Datos.dll
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\bin\Debug\Datos.pdb
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logica.dll
+C:\Users\USUARIO\Desktop\Aplicacion-Web-Gestion-Servicio-Sitp\Logica\obj\Debug\Logica.pdb

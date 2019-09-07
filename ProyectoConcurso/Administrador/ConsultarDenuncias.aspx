@@ -122,7 +122,7 @@
                 <h1 class="center-align">Denuncia</h1>
                 <div class="row">
                      <div class="row">
-                    <h6 class="center-align">Ingrese el id de la Denuncia para consultar su estado</h6>
+                    <h6 class="center-align col s12">Ingrese el id de la Denuncia para consultar su estado</h6>
                 </div>
                 <div class="row center-align">
                     <div class="input-field col s12">
@@ -135,7 +135,7 @@
                 </div>
                     <br /><br /><br /><br />
                     <%-- Consulta --%>
-                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="746px" Visible="False">
+                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="746px">
                    
                     <div class="input-field col s6 blue-grey blue darken-4 white-text" style="border-color: #003399">
                 
@@ -184,7 +184,7 @@
         </div>
 
 
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+       
        
 
 

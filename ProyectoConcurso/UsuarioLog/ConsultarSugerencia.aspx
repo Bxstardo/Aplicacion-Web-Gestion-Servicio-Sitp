@@ -125,7 +125,7 @@
       
          <div class="container">
             <div class="row">
-                <h1 class="center-align">Sugerencia</h1>
+                <h1 class="center-align col s12">Sugerencia</h1>
                 <div class="row">
                      <div class="row">
                     <h6 class="center-align">Ingrese el id de tu Sugerencia a consultar</h6>
@@ -141,45 +141,12 @@
                 </div>
                     <br /><br /><br /><br />
                     <%-- Consulta --%>
-                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="746px" Visible="False">
+                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="100px" Visible="True">
                    
-                    <div class="input-field col s6 blue-grey blue darken-4 white-text" style="border-color: #003399">
-                
-                            Tu denuncia es contra un:
-                           <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-           
-                    </div>
-        
-                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
-                         Lugar del incidente:
-                       <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
-                    </div>
-                    <div class="clearfix blue-grey blue darken-4 white-text"></div>
-                     <div class="input-field col s6 blue-grey blue darken-4 white-text">
-                         Ruta de Servicio:
-                        <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
-                    </div>
-                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
-                                Identificador del
-                                <asp:Label ID="Label5" runat="server"></asp:Label>
-                                :
-                       <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
-                    </div>
-                     <div class="clearfix blue-grey blue darken-4 white-text"></div>
-                    <div class="input-field col s6 blue-grey blue darken-4 white-text">
-                         Fecha incidente:
-                      <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
-                    </div>
-
-                         <div class="input-field col s6 blue-grey blue darken-4 white-text">
-                        Estado de la Denuncia:
-                                <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
-           
-                    </div>
-                           <div class="clearfix blue-grey blue darken-4 white-text"></div>
+                          
                     <div class="input-field col s12 blue-grey blue darken-4 white-text">
                         Descripcion de la denuncia:
-                                <asp:TextBox ID="TextBox4" runat="server" CssClass="materialize-textarea" textmode="multiline" ClientIDMode="Static"></asp:TextBox>
+                                <asp:TextBox ID="TextBox4" runat="server" CssClass="materialize-textarea" textmode="multiline" ClientIDMode="Static" Enabled="False"></asp:TextBox>
            
                     </div>
                     
@@ -189,13 +156,12 @@
             </div>
         </div>
 
-
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+ 
        
 
 
 
-
+        <br />     <br />     <br />     <br />     <br />     <br />     <br />
        <!-- Footer -->
      <footer class="footer-MaterialDark">
             <div class="container">

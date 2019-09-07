@@ -118,7 +118,46 @@
         </div>
                <%--  Contenido  --%>
       
+        
+         <div class="container">
+            <div class="row">
+                <h1 class="center-align col s12">Sugerencia</h1>
+                <div class="row">
+                     <div class="row">
+                    <h6 class="center-align">Ingrese el id de tu Sugerencia a consultar</h6>
+                </div>
+                <div class="row center-align">
+                    <div class="input-field col s12">
+                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
+                        </div>
+                
+                </div>
+                <div class="row center-align">
+                    <asp:Button ID="Button2" runat="server" Text="Consultar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                </div>
+                    <br /><br /><br /><br />
+                    <%-- Consulta --%>
+                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="100px" Visible="True">
+                   
+                          
+                    <div class="input-field col s12 blue-grey blue darken-4 white-text">
+                        Descripcion de la denuncia:
+                                <asp:TextBox ID="TextBox4" runat="server" CssClass="materialize-textarea" textmode="multiline" ClientIDMode="Static" Enabled="False"></asp:TextBox>
+           
+                    </div>
+                    
+                    
+                        </asp:Panel>
+                </div>
+            </div>
+        </div>
 
+ 
+       
+
+
+
+        <br />     <br />     <br />     <br />     <br />     <br />     <br />
 
 
        <!-- Footer -->

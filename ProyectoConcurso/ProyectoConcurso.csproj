@@ -107,6 +107,7 @@
     <Content Include="estilos\js\materialize.min.js" />
     <Content Include="Imagenes\baseline_power_settings_new_black_18dp.png" />
     <Content Include="Imagenes\baseline_trending_flat_black_18dp.png" />
+    <Content Include="Imagenes\Estadisticas.png" />
     <Content Include="Imagenes\fondo.png" />
     <Content Include="Imagenes\fondo1.jpg" />
     <Content Include="Imagenes\fondo2.jpg" />
