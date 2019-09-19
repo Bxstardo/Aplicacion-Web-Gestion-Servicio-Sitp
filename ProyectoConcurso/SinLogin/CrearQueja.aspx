@@ -47,6 +47,10 @@
             </figure> 
             <div class="NavLateral-Nav">
                 <ul class="full-width">
+                      <li>
+                        <a href="../PaginaPrincipal.aspx" class="waves-effect waves-light blue darken-4"><i class="zmdi zmdi-desktop-mac zmdi-hc-fw"></i> Inicio</a>
+                    </li>
+                    <li class="NavLateralDivider"></li>
 <li >
                         <a href="#" class="NavLateral-DropDown  waves-effect blue darken-4"   ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Quejas</a>
                         <ul class="full-width" >

@@ -95,6 +95,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Administrador\AgregarNoticia.aspx" />
     <Content Include="Administrador\ConsultarDenuncias.aspx" />
     <Content Include="Administrador\ConsultarEstadisticasOpiniones.aspx" />
     <Content Include="Administrador\ConsultarOpiniones.aspx" />
@@ -158,6 +159,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador\AgregarNoticia.aspx.cs">
+      <DependentUpon>AgregarNoticia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\AgregarNoticia.aspx.designer.cs">
+      <DependentUpon>AgregarNoticia.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Administrador\ConsultarDenuncias.aspx.cs">
       <DependentUpon>ConsultarDenuncias.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

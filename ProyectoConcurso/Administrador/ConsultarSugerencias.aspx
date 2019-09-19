@@ -82,6 +82,16 @@
                  
                         </ul>
                     </li>   
+                       <li class="NavLateralDivider"></li>
+                    <li>
+                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light blue darken-4"><i class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Noticias</a>
+                        <ul class="full-width">
+                                  <li><a href="AgregarNoticia.aspx" class="waves-effect waves-light">Agregar noticia</a></li>
+
+                 
+                        </ul>
+                    </li>   
+
                 </ul>
                 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <img src="../Imagenes/web-tullave.jpg" class="responsive-img"/>

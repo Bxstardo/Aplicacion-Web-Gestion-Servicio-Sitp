@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ConsultarEstadisticasOpiniones.aspx.cs" Inherits="ProyectoConcurso.Administrador.ConsultarEstadisticasOpiniones" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgregarNoticia.aspx.cs" Inherits="ProyectoConcurso.Administrador.AgregarNoticia" %>
 
 
 <!DOCTYPE html>
@@ -126,17 +126,25 @@
             </ul>   
         </div>
                <%--  Contenido  --%>
-      <div class="container">
-          <div class ="row">
-              <h1 class="col s12 center-align">Estadisticas Opiniones</h1>
-  <img src="../Imagenes/Estadisticas5.png" class="responsive-img col s12 center-align"/>
-
-          </div>
-
-      </div>
       
-        
-        <br /><br /><br />
+         <div class="container">
+             <div class="row">
+                 <h1 class="center-align col s12">Noticias</h1>
+                 <h6 class="center-align col s12 ">Ingrese la descripción de la noticia</h6>
+          
+                   
+             </div>
+             <div class="row">
+                   <asp:TextBox ID="TextBox2" runat="server" CssClass="materialize-textarea col s12" textmode="multiline"></asp:TextBox>   
+             </div>
+
+             <div class="row center-align">
+                          <asp:Button ID="Button2" runat="server" Text="Agregar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                      
+             </div>
+         </div>
+            <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />
+            <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />    <br />
        <!-- Footer -->
      <footer class="footer-MaterialDark">
             <div class="container">
