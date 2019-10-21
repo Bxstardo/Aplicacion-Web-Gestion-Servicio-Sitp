@@ -143,8 +143,6 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Sesion.aspx" />
-    <Content Include="SinLogin\ConsultarDenuncia.aspx" />
-    <Content Include="SinLogin\CrearDenuncia.aspx" />
     <Content Include="SinLogin\CrearOpinion.aspx" />
     <Content Include="SinLogin\CrearQueja.aspx" />
     <Content Include="SinLogin\CrearSugerencia.aspx" />
@@ -237,20 +235,6 @@
     </Compile>
     <Compile Include="Sesion.aspx.designer.cs">
       <DependentUpon>Sesion.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SinLogin\ConsultarDenuncia.aspx.cs">
-      <DependentUpon>ConsultarDenuncia.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SinLogin\ConsultarDenuncia.aspx.designer.cs">
-      <DependentUpon>ConsultarDenuncia.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SinLogin\CrearDenuncia.aspx.cs">
-      <DependentUpon>CrearDenuncia.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SinLogin\CrearDenuncia.aspx.designer.cs">
-      <DependentUpon>CrearDenuncia.aspx</DependentUpon>
     </Compile>
     <Compile Include="SinLogin\CrearOpinion.aspx.cs">
       <DependentUpon>CrearOpinion.aspx</DependentUpon>

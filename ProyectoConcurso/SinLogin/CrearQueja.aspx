@@ -60,16 +60,7 @@
                         </ul>
                     </li>
                     <li class="NavLateralDivider" ></li>
-             <li> 
-                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4" ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
-                        <ul class="full-width">
-                            <li><a href="CrearDenuncia.aspx" class="waves-effect waves-light   ">Crear Denuncia</a></li>
-         
-                                          <li class="NavLateralDivider"></li>
-                            <li><a href="ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
-                        </ul>
-                    </li>
-                    <li class="NavLateralDivider"></li>
+          
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4"  ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">
@@ -143,7 +134,7 @@
                         <%--<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>--%>
                         <div class="map-responsive">
           
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.51641063165!2d-74.24789205374572!3d4.648283717688444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1567774956809!5m2!1ses!2sco"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.147221492144!2d-74.10396128523817!3d4.5675489966815555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f98bff59c2187%3A0xd34f8096987e23f9!2sEdificio%20San%20Lucas!5e0!3m2!1ses-419!2sco!4v1569386621715!5m2!1ses-419!2sco" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
                 </div>
                

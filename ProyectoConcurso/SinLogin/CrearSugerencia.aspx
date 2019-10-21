@@ -57,16 +57,7 @@
                         </ul>
                     </li>
                     <li class="NavLateralDivider" ></li>
-             <li> 
-                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4" ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
-                        <ul class="full-width">
-                            <li><a href="CrearDenuncia.aspx" class="waves-effect waves-light   ">Crear Denuncia</a></li>
-         
-                                          <li class="NavLateralDivider"></li>
-                            <li><a href="ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
-                        </ul>
-                    </li>
-                    <li class="NavLateralDivider"></li>
+          
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4"  ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">

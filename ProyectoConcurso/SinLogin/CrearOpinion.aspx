@@ -57,16 +57,7 @@
                         </ul>
                     </li>
                     <li class="NavLateralDivider" ></li>
-             <li> 
-                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4" ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
-                        <ul class="full-width">
-                            <li><a href="CrearDenuncia.aspx" class="waves-effect waves-light   ">Crear Denuncia</a></li>
-         
-                                          <li class="NavLateralDivider"></li>
-                            <li><a href="ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
-                        </ul>
-                    </li>
-                    <li class="NavLateralDivider"></li>
+          
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4"  ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
                         <ul class="full-width">
@@ -123,56 +114,59 @@
                 <div class="row center center-align">
                     <asp:Panel ID="Panel1" runat="server">
                     <div class="col s12">
-                        <asp:Label ID="Label1" runat="server" Text="Pregunta 1" style="font-size: x-large"></asp:Label>
+                        <asp:Label ID="Label1" runat="server" Text="¿Como considera que es el aseo de los buses del sitp?" style="font-size: x-large"></asp:Label>
                     </div>
                     <div class="col s12">
                         <asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
+                            <asp:ListItem>Excelente</asp:ListItem>
+                            <asp:ListItem>Bueno</asp:ListItem>
+                            <asp:ListItem>Regular</asp:ListItem>
+                            <asp:ListItem>Malo</asp:ListItem>
                         </asp:RadioButtonList>
                  <%--         <asp:TextBox ID="TextBox1" runat="server" CssClass="materialize-textarea" textmode="multiline"></asp:TextBox>--%>
                     </div>
                         </asp:Panel>
                      <asp:Panel ID="Panel2" runat="server">
                      <div class="col s12">
-                        <asp:Label ID="Label2" runat="server" Text="Pregunta 2" style="font-size: x-large"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="¿Como considera la actitud del conductor?" style="font-size: x-large"></asp:Label>
                     </div>
                         
                     <div class="col s12">
                         <asp:RadioButtonList ID="RadioButtonList2" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
+                                  <asp:ListItem>Excelente</asp:ListItem>
+                            <asp:ListItem>Bueno</asp:ListItem>
+                            <asp:ListItem>Regular</asp:ListItem>
+                            <asp:ListItem>Malo</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>
                             </asp:Panel>
                        <asp:Panel ID="Panel3" runat="server">
                      <div class="col s12">
-                        <asp:Label ID="Label3" runat="server" Text="Pregunta 3" style="font-size: x-large"></asp:Label>
+                        <asp:Label ID="Label3" runat="server" Text="¿Como considera las horas de llegada del sitp?" style="font-size: x-large"></asp:Label>
                     </div>
                     <div class="col s12">
                         <asp:RadioButtonList ID="RadioButtonList3" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
+                         <asp:ListItem>Excelente</asp:ListItem>
+                            <asp:ListItem>Bueno</asp:ListItem>
+                            <asp:ListItem>Regular</asp:ListItem>
+                            <asp:ListItem>Malo</asp:ListItem>
                         </asp:RadioButtonList>
                     </div>                           
                             </asp:Panel>
                         <asp:Panel ID="Panel4" runat="server">
                      <div class="col s12">
-                        <asp:Label ID="Label4" runat="server" Text="Pregunta 4" style="font-size: x-large"></asp:Label>
+                        <asp:Label ID="Label4" runat="server" Text="¿Como considera el servicio de transporte sitp?, Bueno, malo, ¿Porque? " style="font-size: x-large"></asp:Label>
                     </div>
                     <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList4" runat="server">
+                         <asp:TextBox ID="TextBox4" runat="server" CssClass="materialize-textarea" textmode="multiline"></asp:TextBox>
+           
+                    </div>
+                       <%-- <asp:RadioButtonList ID="RadioButtonList4" runat="server">
                             <asp:ListItem>Opcion 1</asp:ListItem>
                             <asp:ListItem>Opcion 2</asp:ListItem>
                             <asp:ListItem>Opcion 3</asp:ListItem>
                             <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
+                        </asp:RadioButtonList>--%>
                     </div>
                              </asp:Panel>
                       <asp:Panel ID="Panel5" runat="server">

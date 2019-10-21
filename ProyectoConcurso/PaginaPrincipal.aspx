@@ -57,16 +57,7 @@
                                 
                         </ul>
                     </li>
-                    <li class="NavLateralDivider" ></li>
-             <li> 
-                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4" ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Denuncias </a>
-                        <ul class="full-width">
-                            <li><a href="SinLogin/CrearDenuncia.aspx" class="waves-effect waves-light   ">Crear Denuncia</a></li>
-         
-                                          <li class="NavLateralDivider"></li>
-                            <li><a href="SinLogin/ConsultarDenuncia.aspx" class="waves-effect waves-light">Consultar Denuncias</a></li>
-                        </ul>
-                    </li>
+                 
                     <li class="NavLateralDivider"></li>
                     <li>
                         <a href="#" class="NavLateral-DropDown  waves-effect waves-light  blue darken-4"  ><i class="zmdi zmdi-widgets zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i>Opiniones</a>
@@ -122,7 +113,7 @@
            <br />
             <div class="row">
                 <div class="row">
-                <asp:Panel ID="Panel1" runat="server" CssClass="col s12 blue darken-3"  ForeColor="#E1E1E1" style="border: medium groove #004EC1;">
+                <asp:Panel ID="Panel1" runat="server"  BorderWidth="2" CssClass="col s12 blue darken-3"  ForeColor="#E1E1E1" style="border: medium groove #004EC1;">
 
                     <div class="row">
                         <div class="col s12" style="border: medium groove #004EC1;">

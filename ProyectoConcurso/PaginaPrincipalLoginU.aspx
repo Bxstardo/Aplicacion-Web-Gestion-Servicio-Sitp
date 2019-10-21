@@ -101,7 +101,7 @@
                             <figure> <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="assets/img/user.png" Height="50px" Width="50px" OnClick="ImageButton2_Click1"  /></li></figure>
                 </li>
                 <li style="padding:0 5px;">
-                    <asp:Label ID="Label1" runat="server" Text="User Name" CssClass="white-text"></asp:Label></li>
+                    <asp:Label ID="Label1" runat="server" Text="Brayan721" CssClass="white-text"></asp:Label></li>
            
                 <li >
                    <asp:ImageButton ID="ImageButton1" runat="server" Height="50px" ImageUrl="~/Imagenes/baseline_power_settings_new_black_18dp.png" Width="50px" OnClick="ImageButton1_Click" />
