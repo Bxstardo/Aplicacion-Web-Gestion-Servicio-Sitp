@@ -28,6 +28,36 @@
     
     <!-- MaterialDark CSS -->
 	<link rel="stylesheet" href="../css/style.css">
+
+    <style type="text/css">
+.gridview
+{
+    margin:5px;
+    border:none;
+    background-color:#003399;
+}
+
+.gridview tr {
+    text-align:left;
+    border-bottom: solid;
+    border-color:#FFFFFF;
+    border-width:10px;
+    font-size: 16px;   
+    
+}
+    
+.gridview th{
+    border:none;
+    background-color:#263238;
+    padding: 5px;
+}
+
+.gridview td{
+    border:none;
+    padding: 15px;
+    margin: 5px;
+}
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -126,21 +156,26 @@
             <div class="row">
                 <h1 class="center-align">Denuncia</h1>
                 <div class="row">
-                     <div class="row">
-                    <h6 class="center-align col s12">Ingrese el id de la Denuncia para consultar su estado</h6>
-                </div>
-                <div class="row center-align">
-                    <div class="input-field col s12">
-                    <asp:TextBox ID="TextBox5" runat="server"></asp:TextBox>
-                        </div>
+                    
                 
-                </div>
-                <div class="row center-align">
-                    <asp:Button ID="Button2" runat="server" Text="Consultar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
-                </div>
-                    <br /><br /><br /><br />
+               
+                    <br />
+                   <asp:GridView ID="dvp" runat="server"  EmptyDataText="No hay registros." CssClass="gridview white-text" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="Id_Sesion" DataSourceID="SqlDataSource1" >
+                        <Columns>
+                         
+                            <asp:BoundField DataField="Id_Sesion" HeaderText="Id_Sesion" ReadOnly="True" SortExpression="Id_Sesion" InsertVisible="False" />
+                            <asp:BoundField DataField="Usuario" HeaderText="Usuario" SortExpression="Usuario" />
+                            <asp:BoundField DataField="Tipo_Usuario" HeaderText="Tipo_Usuario" SortExpression="Tipo_Usuario" />
+                            <asp:BoundField DataField="Contraseña" HeaderText="Contraseña" SortExpression="Contraseña" />
+                         
+                        </Columns>
+                        <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+                    </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=DESKTOP-GFI9B2I;Initial Catalog=Prueba2;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Sesion]"></asp:SqlDataSource>
                     <%-- Consulta --%>
-                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="450px">
+
+
+                    <asp:Panel ID="Panel1" runat="server" BackColor="#1565C0" Height="450px" Visible="False">
                    
                     <div class="input-field col s12 m6 blue-grey blue darken-4 white-text" style="border-color: #003399">
                 
@@ -191,15 +226,7 @@
 
        
        <!-- Footer -->
-     <footer class="footer-MaterialDark">
-            <div class="container">
-
-            <div class="footer-copyright">
-                <div class="container center-align">
-                    © 2019 Brayan Martinez - Kenner Ruiz - Camilo Meza
-                </div>
-            </div>
-        </footer>
+    
     </section>
     &nbsp;<!-- jQuery --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script>window.jQuery || document.write('<script src="../js/jquery-2.2.0.min.js"><\/script>')</script><!-- Materialize JS --><script src="../js/materialize.min.js"></script><!-- Malihu jQuery custom content scroller JS --><script src="../js/jquery.mCustomScrollbar.concat.min.js"></script><!-- MaterialDark JS --><script src="../js/main.js"></script></form>
 </body>

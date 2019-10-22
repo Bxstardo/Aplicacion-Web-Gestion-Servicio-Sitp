@@ -111,158 +111,44 @@
         <div class="container">
             <div class="row">
                 <h1 class="center-align">Opinion</h1>
+
                 <div class="row center center-align">
-                    <asp:Panel ID="Panel1" runat="server">
-                    <div class="col s12">
-                        <asp:Label ID="Label1" runat="server" Text="¿Como considera que es el aseo de los buses del sitp?" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+
+
+                     <div class="col s12">
+                    <div class="card white">                  
+                        <div class="card-content center-align">
+                                 <span class="card-title">Pregunta cerrada</span>
+                                <asp:RadioButtonList ID="RadioButtonList2" runat="server">
                             <asp:ListItem>Excelente</asp:ListItem>
                             <asp:ListItem>Bueno</asp:ListItem>
                             <asp:ListItem>Regular</asp:ListItem>
                             <asp:ListItem>Malo</asp:ListItem>
-                        </asp:RadioButtonList>
-                 <%--         <asp:TextBox ID="TextBox1" runat="server" CssClass="materialize-textarea" textmode="multiline"></asp:TextBox>--%>
+                        </asp:RadioButtonList>                                     
+                        </div>
                     </div>
-                        </asp:Panel>
-                     <asp:Panel ID="Panel2" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label2" runat="server" Text="¿Como considera la actitud del conductor?" style="font-size: x-large"></asp:Label>
-                    </div>
-                        
+                </div>    
+
                     <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList2" runat="server">
-                                  <asp:ListItem>Excelente</asp:ListItem>
-                            <asp:ListItem>Bueno</asp:ListItem>
-                            <asp:ListItem>Regular</asp:ListItem>
-                            <asp:ListItem>Malo</asp:ListItem>
-                        </asp:RadioButtonList>
+                    <div class="card white">                  
+                        <div class="card-content center-align">
+                                 <span class="card-title">Pregunta abierta</span>
+                                 <br />
+                                 <br />
+                            <div class="input-field">
+                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>  
+                                </div>                           
+                        </div>
                     </div>
-                            </asp:Panel>
-                       <asp:Panel ID="Panel3" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label3" runat="server" Text="¿Como considera las horas de llegada del sitp?" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList3" runat="server">
-                         <asp:ListItem>Excelente</asp:ListItem>
-                            <asp:ListItem>Bueno</asp:ListItem>
-                            <asp:ListItem>Regular</asp:ListItem>
-                            <asp:ListItem>Malo</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>                           
-                            </asp:Panel>
-                        <asp:Panel ID="Panel4" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label4" runat="server" Text="¿Como considera el servicio de transporte sitp?, Bueno, malo, ¿Porque? " style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                         <asp:TextBox ID="TextBox4" runat="server" CssClass="materialize-textarea" textmode="multiline"></asp:TextBox>
-           
-                    </div>
-                       <%-- <asp:RadioButtonList ID="RadioButtonList4" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>--%>
-                    </div>
-                             </asp:Panel>
-                      <asp:Panel ID="Panel5" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label5" runat="server" Text="Pregunta 5" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList5" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                               </asp:Panel>
-                         <asp:Panel ID="Panel6" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label6" runat="server" Text="Pregunta 6" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList6" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                        </asp:Panel>
-                        <asp:Panel ID="Panel7" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label7" runat="server" Text="Pregunta 7" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList7" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                    </asp:Panel>
-                         <asp:Panel ID="Panel8" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label8" runat="server" Text="Pregunta 8" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList8" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                 </asp:Panel>
-                     <asp:Panel ID="Panel9" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label9" runat="server" Text="Pregunta 9" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList9" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                </asp:Panel>
-                     <asp:Panel ID="Panel10" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label10" runat="server" Text="Pregunta 10" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList10" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                             </asp:Panel>
+                </div>    
+                    
+                            
                 </div>
             </div>
         </div>
 
 
           
-           <!-- Footer -->
-     <footer class="footer-MaterialDark">
-            <div class="container">
-
-            <div class="footer-copyright">
-                <div class="container center-align">
-                    © 2019 Brayan Martinez - Kenner Ruiz - Camilo Meza
-                </div>
-            </div>
-        </footer>
     </section>
     &nbsp;<!-- jQuery --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script>window.jQuery || document.write('<script src="../js/jquery-2.2.0.min.js"><\/script>')</script><!-- Materialize JS --><script src="../js/materialize.min.js"></script><!-- Malihu jQuery custom content scroller JS --><script src="../js/jquery.mCustomScrollbar.concat.min.js"></script><!-- MaterialDark JS --><script src="../js/main.js"></script></form>
 </body>

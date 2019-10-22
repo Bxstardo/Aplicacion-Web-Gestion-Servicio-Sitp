@@ -101,11 +101,14 @@
     <Content Include="Administrador\ConsultarOpiniones.aspx" />
     <Content Include="Administrador\ConsultarQuejas.aspx" />
     <Content Include="Administrador\ConsultarSugerencias.aspx" />
+    <Content Include="css\Gridview.css" />
     <Content Include="css\responsive mapa.css" />
     <Content Include="estilos\css\materialize.css" />
     <Content Include="estilos\css\materialize.min.css" />
     <Content Include="estilos\js\materialize.js" />
     <Content Include="estilos\js\materialize.min.js" />
+    <Content Include="Imagenes\baseline_keyboard_arrow_left_black_18dp.png" />
+    <Content Include="Imagenes\baseline_keyboard_arrow_right_black_18dp.png" />
     <Content Include="Imagenes\baseline_power_settings_new_black_18dp.png" />
     <Content Include="Imagenes\baseline_trending_flat_black_18dp.png" />
     <Content Include="Imagenes\Estadisticas.png" />
