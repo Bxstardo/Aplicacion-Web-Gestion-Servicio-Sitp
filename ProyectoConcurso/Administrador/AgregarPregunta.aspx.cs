@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ProyectoConcurso.Administrador
 {
-    public partial class AgregarNoticia : System.Web.UI.Page
+    public partial class AgregarPregunta : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -16,8 +16,7 @@ namespace ProyectoConcurso.Administrador
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("../PaginaPrincipal.aspx");
-        
+            Response.Redirect("../PaginaPrincipalLoginA.aspx");
         }
     }
 }

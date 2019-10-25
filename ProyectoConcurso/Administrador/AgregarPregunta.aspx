@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgregarNoticia.aspx.cs" Inherits="ProyectoConcurso.Administrador.AgregarNoticia" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AgregarPregunta.aspx.cs" Inherits="ProyectoConcurso.Administrador.AgregarPregunta" %>
 
 
 <!DOCTYPE html>
@@ -129,22 +129,67 @@
       
          <div class="container">
              <div class="row">
-                 <h1 class="center-align col s12">Noticias</h1>
+                 <h1 class="center-align col s12">Agregar Pregunta</h1>
                  <p class="center-align col s12">&nbsp;</p>
-                 <h6 class="center-align col s12 ">Ingrese el titulo de la noticia</h6>           
+                 <h6 class="center-align col s12 ">Ingrese el titulo de la pregunta</h6>           
              </div>
-             <div class="row center-align">
+             <div class="row col s12 center center-align">
                  <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                 <br />
+                    
              </div>
-             <div class="row center center-align">
-                 <h6>Ingrese la descripcion de la noticia</h6>
+             <div class="row col s12">
+
+                Seleccione el tipo de pregunta que deseas agregar:   <asp:DropDownList ID="DropDownList1" runat="server" class="browser-default">
+            <asp:ListItem>Seleccione</asp:ListItem>
+                        <asp:ListItem>Abierta</asp:ListItem>
+                     <asp:ListItem>Cerrada</asp:ListItem>
+                        </asp:DropDownList>
+                 <br />
+                 <br />
+                  
              </div>
-             <div class="row">
-                   <asp:TextBox ID="TextBox2" runat="server" CssClass="materialize-textarea col s12" textmode="multiline"></asp:TextBox>   
+             <asp:Panel ID="Panel1" runat="server">
+              
+             <div class="row col s12 center-align">
+                 
+                 <table style="width:100%;">
+                     <tr>
+                         <td>
+                             <asp:RadioButton ID="RadioButton1" runat="server" GroupName="Respuesta" Text="Respuestas Predeterminadas (Bueno,malo...)" />
+                         </td>
+                         <td>
+                             <asp:RadioButton ID="RadioButton2" runat="server" Text="Respuestas Personalizadas" GroupName="Respuesta" />
+                         </td>
+               
+                     </tr>
+                 </table>
              </div>
 
+                 <asp:Panel ID="Panel2" runat="server">
+
+                     <div class ="row center center-align">
+                         <br />
+                         Ingrese la respuesta personalizada:
+                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                         <p>
+
+                         </p>
+                         <asp:Button ID="Button1" runat="server" Text="Agregar Respuesta" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                         <br />
+                         <br />
+                         <asp:GridView ID="GridView1" runat="server">
+                         </asp:GridView>
+                     </div>
+                     <div class ="row center-align">
+
+                     </div>
+                 </asp:Panel>
+             </asp:Panel>
+             
+
              <div class="row center-align">
-                          <asp:Button ID="Button2" runat="server" Text="Agregar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                          <asp:Button ID="Button2" runat="server" Text="Agregar Pregunta" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
                       
              </div>
 

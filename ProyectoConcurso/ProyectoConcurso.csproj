@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Administrador\AgregarNoticia.aspx" />
+    <Content Include="Administrador\AgregarPregunta.aspx" />
     <Content Include="Administrador\ConsultarDenuncias.aspx" />
     <Content Include="Administrador\ConsultarEstadisticasOpiniones.aspx" />
     <Content Include="Administrador\ConsultarOpiniones.aspx" />
@@ -166,6 +167,13 @@
     </Compile>
     <Compile Include="Administrador\AgregarNoticia.aspx.designer.cs">
       <DependentUpon>AgregarNoticia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\AgregarPregunta.aspx.cs">
+      <DependentUpon>AgregarPregunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\AgregarPregunta.aspx.designer.cs">
+      <DependentUpon>AgregarPregunta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Administrador\ConsultarDenuncias.aspx.cs">
       <DependentUpon>ConsultarDenuncias.aspx</DependentUpon>
