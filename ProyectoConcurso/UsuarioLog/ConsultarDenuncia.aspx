@@ -160,18 +160,11 @@
                 
                
                     <br />
-                   <asp:GridView ID="dvp" runat="server"  EmptyDataText="No hay registros." CssClass="gridview white-text" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="Id_Sesion" DataSourceID="SqlDataSource1" >
-                        <Columns>
-                         
-                            <asp:BoundField DataField="Id_Sesion" HeaderText="Id_Sesion" ReadOnly="True" SortExpression="Id_Sesion" InsertVisible="False" />
-                            <asp:BoundField DataField="Usuario" HeaderText="Usuario" SortExpression="Usuario" />
-                            <asp:BoundField DataField="Tipo_Usuario" HeaderText="Tipo_Usuario" SortExpression="Tipo_Usuario" />
-                            <asp:BoundField DataField="Contraseña" HeaderText="Contraseña" SortExpression="Contraseña" />
-                         
-                        </Columns>
+                   <asp:GridView ID="dvp" runat="server"  EmptyDataText="No hay registros." CssClass="gridview white-text" AllowPaging="True" AutoGenerateColumns="False" >
+                       
                         <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
                     </asp:GridView>
-                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=DESKTOP-GFI9B2I;Initial Catalog=Prueba2;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [Sesion]"></asp:SqlDataSource>
+                   
                     <%-- Consulta --%>
 
 

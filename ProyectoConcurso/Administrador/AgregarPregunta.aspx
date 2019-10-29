@@ -28,6 +28,35 @@
     
     <!-- MaterialDark CSS -->
 	<link rel="stylesheet" href="../css/style.css">
+        <style type="text/css">
+.gridview
+{
+    margin:5px;
+    border:none;
+    background-color:#003399;
+}
+
+.gridview tr {
+    text-align:left;
+    border-bottom: solid;
+    border-color:#FFFFFF;
+    border-width:10px;
+    font-size: 16px;   
+    
+}
+    
+.gridview th{
+    border:none;
+    background-color:#263238;
+    padding: 5px;
+}
+
+.gridview td{
+    border:none;
+    padding: 15px;
+    margin: 5px;
+}
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -156,30 +185,56 @@
                  <table style="width:100%;">
                      <tr>
                          <td>
-                             <asp:RadioButton ID="RadioButton1" runat="server" GroupName="Respuesta" Text="Respuestas Predeterminadas (Bueno,malo...)" />
+                             <asp:RadioButton ID="RadioButton1" runat="server" GroupName="Respuesta" Text="Respuestas Predeterminadas (Bueno,malo...)" AutoPostBack="True" />
+                         </td>
+                          <td>
+                             <asp:RadioButton ID="RadioButton3" runat="server" Text="Respuestas Condicionales(Si/No)" GroupName="Respuesta" AutoPostBack="True" />
                          </td>
                          <td>
-                             <asp:RadioButton ID="RadioButton2" runat="server" Text="Respuestas Personalizadas" GroupName="Respuesta" />
+                             <asp:RadioButton ID="RadioButton2" runat="server" Text="Respuestas Personalizadas" GroupName="Respuesta" AutoPostBack="True" OnCheckedChanged="RadioButton2_CheckedChanged" />
                          </td>
                
                      </tr>
                  </table>
              </div>
 
-                 <asp:Panel ID="Panel2" runat="server">
+                 <asp:Panel ID="Panel2" runat="server" Visible="False">
 
                      <div class ="row center center-align">
                          <br />
+                         <div class="row col s6">
                          Ingrese la respuesta personalizada:
+                             <br />
                          <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                         <p>
+                             </div>
+                                   <div class="row col s6">
+                                       Respuestas anteriores
 
-                         </p>
-                         <asp:Button ID="Button1" runat="server" Text="Agregar Respuesta" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                                       <asp:DropDownList ID="DropDownList4" runat="server" class="browser-default" AutoPostBack="True" OnSelectedIndexChanged="DropDownList4_SelectedIndexChanged">
+                                           <asp:ListItem>Seleccione</asp:ListItem>
+                                           <asp:ListItem>s</asp:ListItem>
+                                           <asp:ListItem>d</asp:ListItem>
+                                       </asp:DropDownList>
+
+                                       </div>
+                         <asp:Button ID="Button1" runat="server" Text="Agregar Respuesta" CssClass="waves-effect waves-light blue-grey darken-4 btn" OnClick="Button1_Click" />
+                         &nbsp;
                          <br />
                          <br />
-                         <asp:GridView ID="GridView1" runat="server">
-                         </asp:GridView>
+                       
+                         <asp:DropDownList ID="DropDownList2" runat="server" class="browser-default" OnSelectedIndexChanged="DropDownList2_SelectedIndexChanged">
+                             <asp:ListItem></asp:ListItem>
+                          
+                         </asp:DropDownList>
+                       
+                         <br />
+                         <asp:Button ID="Button3" runat="server" CssClass="waves-effect waves-light blue-grey darken-4 btn" Text="Eliminar Respuesta Seleccionada" OnClick="Button3_Click" />
+                         <br />
+                         <br />
+                           <asp:GridView ID="dvp" runat="server"  EmptyDataText="No hay registros." CssClass="gridview white-text" AllowPaging="True" AutoGenerateColumns="False" >
+                       
+                        <HeaderStyle BackColor="#006699" Font-Bold="True" ForeColor="White" />
+                    </asp:GridView>
                      </div>
                      <div class ="row center-align">
 
