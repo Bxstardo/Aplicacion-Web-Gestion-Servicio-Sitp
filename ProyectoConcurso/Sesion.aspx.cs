@@ -22,7 +22,6 @@ namespace ProyectoConcurso
         {
             Credenciales ObjLogin = new Credenciales();
             DataSet Datos = new DataSet();
-            Tipousuario ObjTipoUsuarios = new Tipousuario();
 
             try
             {
@@ -38,15 +37,31 @@ namespace ProyectoConcurso
                 }
                 else
                 {
-                    //Datos = ObjTipoUsuarios.ConsultarTipoUsuario(TextBox1.Text);
-                    //DataTable DatosConsultadosTipoUsuario = Datos.Tables["DatosConsultados"];
-                    //DataTable DatosIdTipoUsuario = 0;
+                    Datos = ObjLogin.ConsultarCredenciales1(TextBox1.Text, "Identifi_Usu");
+                    DatosConsultados = Datos.Tables["DatosConsultados"];
 
-                    //if (DatosConsultados == 0)
-                    //{
+                    long IdentificacionUsuario = long.Parse(DatosConsultados.Rows[0]["id_usuario"].ToString());
 
-                    //}
-                    Response.Redirect("PaginaPrincipalLoginU.aspx");
+                    Page.Session["Identificacion_Usuario"] = IdentificacionUsuario;
+
+                    Tipousuario ObjTipUsu = new Tipousuario();
+                    Datos = ObjTipUsu.ConsultarTipoUsuario(TextBox1.Text);
+
+                    DatosConsultados = Datos.Tables["DatosConsultados"];
+                    string IdTipUsu = DatosConsultados.Rows[0]["id_tipo_usuario"].ToString();
+
+                    if (IdTipUsu == "1")
+                    {
+                        Response.Redirect("PaginaPrincipalLoginU.aspx");
+                    }
+                    else if (IdTipUsu == "2")
+                    {
+                        Response.Redirect("PaginaPrincipalLoginA.aspx");
+                    }
+                    else
+                    {
+                        MessageBox.alert("Error Busqueda de login incorrecta");
+                    }
                 }
             }
             catch (Exception ex)

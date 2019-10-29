@@ -57,7 +57,7 @@
                 	<div class="clearfix"></div>
 				<div class="input-field col l6 col m6">
               Nombres:
-			 <asp:TextBox ID="TextBox1"  runat="server" placeholder="Nombres" CssClass="validate"></asp:TextBox>
+			 <asp:TextBox ID="TextBox1" type="text"  runat="server" placeholder="Nombres" CssClass="validate"></asp:TextBox>
 						
 				</div>
 				<div class="input-field col l6 col m6">
@@ -79,8 +79,7 @@
                 	<div class="input-field col l6 col-m6">
 				        Ciudad:
                    
-        <asp:DropDownList ID="DropDownList1" runat="server" class="browser-default">
-            <asp:ListItem>Seleccione</asp:ListItem>
+        <asp:DropDownList ID="DropDownList1" AppendDataBoundItems="true" runat="server" class="browser-default">
                         </asp:DropDownList>
 
                  
@@ -90,8 +89,7 @@
 				<div class="input-field col l6 m6">
 				    Localidad:
 
-                       <asp:DropDownList ID="DropDownList2" runat="server" class="browser-default">
-            <asp:ListItem>Seleccione</asp:ListItem>
+                       <asp:DropDownList ID="DropDownList2" AppendDataBoundItems="true" runat="server" class="browser-default">
                         </asp:DropDownList>
 				</div>
 

@@ -42,7 +42,12 @@
   <ItemGroup>
     <Compile Include="Ciudad.cs" />
     <Compile Include="Credenciales.cs" />
+    <Compile Include="Denuncia.cs" />
+    <Compile Include="Noticia.cs" />
+    <Compile Include="Opinion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queja.cs" />
+    <Compile Include="Sugerencia.cs" />
     <Compile Include="Tipousuario.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>

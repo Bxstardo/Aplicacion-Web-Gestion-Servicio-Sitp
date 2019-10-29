@@ -35,5 +35,13 @@ namespace Logica
             DataSet ConsultaLogin = ConsultarSQL(Login);
             return ConsultaLogin;
         }
+
+        public DataSet ConsultarCredenciales1(string Valor,string Columna)
+        {
+            string Login = "EXEC ConsultarCredenciales @Valor ='" + Valor + "', " +
+                "@Columna ='" + Columna + "'";
+            DataSet ConsultaLogin = ConsultarSQL(Login);
+            return ConsultaLogin;
+        }
     }
 }

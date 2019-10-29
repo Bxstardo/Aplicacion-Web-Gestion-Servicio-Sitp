@@ -15,133 +15,129 @@ namespace ProyectoConcurso
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                LlenarDDL_Ciudades();
+                LlenarDDL_Localidades();
+            }
 
+        }
+
+        private void LlenarDDL_Ciudades()
+        {
+            Ciudad ObjCiudad = new Ciudad();
+            DataSet DatosCiudad = new DataSet();
+
+            try
+            {
+                DatosCiudad = ObjCiudad.ConsultarCiudades();
+                DataTable DatosConsultados = DatosCiudad.Tables["DatosConsultados"];
+
+                DropDownList1.DataSource = DatosConsultados;
+                DropDownList1.DataTextField = "nombre_ciudad";
+                DropDownList1.DataValueField = "id_ciudad";
+                DropDownList1.DataBind();
+                DropDownList1.Items.Insert(0, new ListItem("Seleccione una Ciudad", "-1"));
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.alert(Ex.Message + " " + ObjCiudad.Mensaje);
+            }
+        }
+
+        private void LlenarDDL_Localidades()
+        {
+            DropDownList2.Items.Insert(0, new ListItem("Seleccione una Ciudad", "-1"));
+            DropDownList2.Items.Insert(1, new ListItem("[1]", "1"));
+            DropDownList2.Items.Insert(2, new ListItem("[2]", "2"));
+            DropDownList2.Items.Insert(3, new ListItem("[3]", "3"));
+            DropDownList2.Items.Insert(4, new ListItem("[4]", "4"));
+            DropDownList2.Items.Insert(5, new ListItem("[5]", "5"));
+            DropDownList2.Items.Insert(6, new ListItem("[6]", "6"));
+            DropDownList2.Items.Insert(7, new ListItem("[7]", "7"));
+            DropDownList2.Items.Insert(8, new ListItem("[8]", "8"));
+            DropDownList2.Items.Insert(9, new ListItem("[9]", "9"));
+            DropDownList2.Items.Insert(10, new ListItem("[10]", "10"));
+            DropDownList2.Items.Insert(11, new ListItem("[11]", "11"));
+            DropDownList2.Items.Insert(12, new ListItem("[12]", "12"));
+            DropDownList2.Items.Insert(13, new ListItem("[13]", "13"));
+            DropDownList2.Items.Insert(14, new ListItem("[14]", "14"));
+            DropDownList2.Items.Insert(15, new ListItem("[15]", "15"));
+            DropDownList2.Items.Insert(16, new ListItem("[16]", "16"));
+            DropDownList2.Items.Insert(17, new ListItem("[17]", "17"));
+            DropDownList2.Items.Insert(18, new ListItem("[18]", "18"));
+            DropDownList2.Items.Insert(19, new ListItem("[19]", "19"));
+            DropDownList2.Items.Insert(20, new ListItem("[20]", "20"));
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Usuarios ObjUsuario = new Usuarios();
-            Credenciales ObjLogin = new Credenciales();
-            DataSet DatosUsuarioCreados = new DataSet();
-            //Solo Usuarios normales
+            Credenciales ObjCreden = new Credenciales();
+            DataSet Datos = new DataSet();
+
             try
             {
-                string localidad;
-                localidad = DropDownList2.Text;
-                //<Atributos de la tabla usuario
-                ObjUsuario.id_usuario = long.Parse(TextBox9.Text);
-                ObjUsuario.nombres = TextBox1.Text;
-                ObjUsuario.apellidos = TextBox2.Text;
-                ObjUsuario.direccion = TextBox3.Text;
-                ObjUsuario.telefono = long.Parse(TextBox4.Text);
-                ObjUsuario.email = TextBox8.Text;
-                ObjUsuario.barrio = TextBox5.Text;
-                ObjUsuario.localidad = DropDownList1.Text;
-                ObjUsuario.id_ciudad = 0;
-                ObjUsuario.id_tipo_usuario = 0;
+                Datos = ObjCreden.ConsultarCredenciales(TextBox6.Text, TextBox7.Text);
+                DataTable DatosConsultados = Datos.Tables["DatosConsultados"];
 
-                bool RespuestaSQLUsuario = ObjUsuario.InsertarUsuario();
+                int NumCredenIgual = DatosConsultados.Rows.Count;
 
-                if (RespuestaSQLUsuario == true)
+                if (NumCredenIgual == 0)
                 {
-                    DatosUsuarioCreados = ObjUsuario.ConsultarUsuIden(long.Parse(TextBox9.Text));
-                    DataTable DatosConsultados = DatosUsuarioCreados.Tables["DatosConsultados"];
+                    Usuarios ObjUsu = new Usuarios();
 
-                    int NumRegistros = DatosConsultados.Rows.Count;
-                    if (NumRegistros == 0)
+                    try
                     {
-                        MessageBox.alert("Los atributos de credenciales no han sido consultados correctamente");
-                    }
-                    else
-                    {
-                        ObjLogin.id_usuario = long.Parse(TextBox9.Text);
-                        ObjLogin.usuario = TextBox6.Text;
-                        ObjLogin.contraseña = TextBox7.Text;
+                        Datos = ObjUsu.ConsultarUsuIden(TextBox9.Text, "Login");
+                        DatosConsultados = Datos.Tables["DatosConsultados"];
 
-                        bool RespuestaSQLCredenciales = ObjLogin.InsertarCredenciales();
+                        int NumUsuIgual = DatosConsultados.Rows.Count;
 
-                        if (RespuestaSQLUsuario == true && RespuestaSQLCredenciales == true)
+                        if (NumUsuIgual == 0)
                         {
-                            MessageBox.alert("Usuario registrado correctamente");
-                            TextBox1.Text = "";
-                            TextBox2.Text = "";
-                            TextBox3.Text = "";
-                            TextBox4.Text = "";
-                            TextBox5.Text = "";
-                            TextBox6.Text = "";
-                            TextBox7.Text = "";
-                            TextBox8.Text = "";
-                            TextBox9.Text = "";
-                            Response.Redirect("Sesion.aspx");
+                            ObjUsu.id_usuario = long.Parse(TextBox9.Text);
+                            ObjUsu.nombres = TextBox1.Text;
+                            ObjUsu.apellidos = TextBox2.Text;
+                            ObjUsu.direccion = TextBox3.Text;
+                            ObjUsu.telefono = long.Parse(TextBox4.Text);
+                            ObjUsu.email = TextBox8.Text;
+                            ObjUsu.barrio = TextBox5.Text;
+                            ObjUsu.localidad = DropDownList2.SelectedItem.ToString();
+                            ObjUsu.id_ciudad = long.Parse(DropDownList1.SelectedIndex.ToString());
+                            ObjUsu.id_tipo_usuario = 1;
+
+                            bool RespuestaSQLUsu = ObjUsu.InsertarUsuario();
+                            if (RespuestaSQLUsu == true)
+                            {
+                                ObjCreden.usuario = TextBox6.Text;
+                                ObjCreden.contraseña = TextBox7.Text;
+                                ObjCreden.id_usuario = long.Parse(TextBox9.Text);
+
+                                bool RespuestaSQLCreden = ObjCreden.InsertarCredenciales();
+                                if (RespuestaSQLCreden == true)
+                                {
+                                    MessageBox.alert("Se han registrado correctamente los datos");
+                                }
+                            }
                         }
                         else
                         {
-                            MessageBox.alert("Las credenciales no han sido creadas correctamente");
+                            MessageBox.alert("El usuario ya existe");
                         }
+                    }
+                    catch (Exception Ex)
+                    {
+                        MessageBox.alert(Ex.Message + " 2 " + ObjUsu.Mensaje);
                     }
                 }
                 else
                 {
-                    MessageBox.alert("Los atributos del usuario no fueron creados");
+                    MessageBox.alert("El usuario ya existe");
                 }
-
-
-                //if (RespuestaSQLCredenciales == true)
-                //{
-                //    string localidad;
-                //    localidad = DropDownList2.Text;
-                //    //<Atributos de la tabla usuario
-                //    ObjUsuario.id_usuario = long.Parse(TextBox9.Text);
-                //    ObjUsuario.nombres = TextBox1.Text;
-                //    ObjUsuario.apellidos = TextBox2.Text;
-                //    ObjUsuario.direccion = TextBox3.Text;
-                //    ObjUsuario.telefono = long.Parse(TextBox4.Text);
-                //    ObjUsuario.email = TextBox8.Text;
-                //    ObjUsuario.barrio = TextBox5.Text;
-                //    ObjUsuario.localidad = DropDownList1.Text;
-                //    ObjUsuario.id_ciudad = 0;
-                //    ObjUsuario.id_tipo_usuario = 0;
-
-                //    bool RespuestaSQLUsuario = ObjUsuario.InsertarUsuario();
-
-                //    if (RespuestaSQLUsuario == true)
-                //    {
-                //        MessageBox.alert("Usuario registrado correctamente");
-                //        TextBox1.Text = "";
-                //        TextBox2.Text = "";
-                //        TextBox3.Text = "";
-                //        TextBox4.Text = "";
-                //        TextBox5.Text = "";
-                //        TextBox6.Text = "";
-                //        TextBox7.Text = "";
-                //        TextBox8.Text = "";
-                //    }
-                //    else
-                //    {
-                //        MessageBox.alert("2 No se a podido crear el Usuario correctamente ");
-                //    }
-            
-                //else
-                //{
-                //    MessageBox.alert("No se a podido crear el Usuario correctamente ");
-                //}
-
-                //if (RespuestaSQLUsu == true && RespuestaSQLCrede == true)
-                //{
-                //    MessageBox.alert("Usuario registrado correctamente");
-                //    TextBox1.Text = "";
-                //    TextBox2.Text = "";
-                //    TextBox3.Text = "";
-                //    TextBox4.Text = "";
-                //    TextBox5.Text = "";
-                //    TextBox6.Text = "";
-                //    TextBox7.Text = "";
-                //    TextBox8.Text = "";
-                //}
             }
             catch (Exception Ex)
             {
-                MessageBox.alert("El usuario no ha sido registrado correctamente por el siguiente error "+Ex.Message+" "+ObjUsuario.Mensaje);
+                MessageBox.alert(Ex.Message + " 1 " + ObjCreden.Mensaje);
             }
         }
     }

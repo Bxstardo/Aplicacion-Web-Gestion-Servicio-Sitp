@@ -23,7 +23,7 @@ namespace Logica
             bool respuestaSQL = EjecutarSQL(Insertar);
             return respuestaSQL;
         }
-        public DataSet ConsultarAllCiudades()
+        public DataSet ConsultarCiudades()
         {
             string Consultar = "EXEC ConsultarCiudades";
             DataSet ConsultaCiudades = ConsultarSQL(Consultar);

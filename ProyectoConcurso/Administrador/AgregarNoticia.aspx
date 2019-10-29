@@ -144,7 +144,7 @@
              </div>
 
              <div class="row center-align">
-                          <asp:Button ID="Button2" runat="server" Text="Agregar" CssClass="waves-effect waves-light blue-grey darken-4 btn" />
+                          <asp:Button ID="Button2" runat="server" Text="Agregar" CssClass="waves-effect waves-light blue-grey darken-4 btn" OnClick="Button2_Click" />
                       
              </div>
 

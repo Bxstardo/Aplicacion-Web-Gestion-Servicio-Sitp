@@ -196,71 +196,7 @@
                         </asp:RadioButtonList>
                     </div>
                                </asp:Panel>
-                         <asp:Panel ID="Panel6" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label7" runat="server" Text="Pregunta 6" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList6" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                        </asp:Panel>
-                        <asp:Panel ID="Panel7" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label8" runat="server" Text="Pregunta 7" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList7" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                    </asp:Panel>
-                         <asp:Panel ID="Panel8" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label9" runat="server" Text="Pregunta 8" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList8" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                 </asp:Panel>
-                     <asp:Panel ID="Panel9" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label10" runat="server" Text="Pregunta 9" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList9" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                                </asp:Panel>
-                     <asp:Panel ID="Panel10" runat="server">
-                     <div class="col s12">
-                        <asp:Label ID="Label11" runat="server" Text="Pregunta 10" style="font-size: x-large"></asp:Label>
-                    </div>
-                    <div class="col s12">
-                        <asp:RadioButtonList ID="RadioButtonList10" runat="server">
-                            <asp:ListItem>Opcion 1</asp:ListItem>
-                            <asp:ListItem>Opcion 2</asp:ListItem>
-                            <asp:ListItem>Opcion 3</asp:ListItem>
-                            <asp:ListItem>Opcion 4</asp:ListItem>
-                        </asp:RadioButtonList>
-                    </div>
-                             </asp:Panel>
+              
                 </div>
             </div>
         </div>

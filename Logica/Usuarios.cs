@@ -19,8 +19,8 @@ namespace Logica
         private string _email; //digitos 120
         private string _barrio; //digitos 60
         private string _localidad; //digitos 60
-        private int _id_ciudad;
-        private int _id_tipo_usuario;
+        private long _id_ciudad;
+        private long _id_tipo_usuario;
 
         public long id_usuario { get { return _id_usuario; } set { _id_usuario = value; } }
         public string nombres { get { return _nombres; } set { _nombres = value; } }
@@ -30,8 +30,8 @@ namespace Logica
         public string email { get { return _email; } set { _email = value; } }
         public string barrio { get { return _barrio; } set { _barrio = value; } }
         public string localidad { get { return _localidad; } set { _localidad = value; } }
-        public int id_ciudad { get { return _id_ciudad; } set { _id_ciudad = value; } }
-        public int id_tipo_usuario { get { return _id_tipo_usuario; } set { _id_tipo_usuario = value; } }
+        public long id_ciudad { get { return _id_ciudad; } set { _id_ciudad = value; } }
+        public long id_tipo_usuario { get { return _id_tipo_usuario; } set { _id_tipo_usuario = value; } }
 
         public bool InsertarUsuario()
         {
@@ -53,15 +53,10 @@ namespace Logica
             bool respuestaSQL = EjecutarSQL(Actualizar);
             return respuestaSQL;
         }
-        public DataSet ConsultarALLUsuario()
+
+        public DataSet ConsultarUsuIden(string Valor, string Columna)
         {
-            string Seleccionar = "select * from Usuario";
-            DataSet ConsultaUsuarioAll = ConsultarSQL(Seleccionar);
-            return ConsultaUsuarioAll;
-        }
-        public DataSet ConsultarUsuIden(long Valor)
-        {
-            string Consultar = "EXEC ConsultarUsuIden @Valor =" + Valor;
+            string Consultar = "EXEC ConsultarUsuario @Valor ='" + Valor + "',@Columna ='" + Columna + "'";
             DataSet ConsultarUsuIdentificacion = ConsultarSQL(Consultar);
             return ConsultarUsuIdentificacion;
         }
